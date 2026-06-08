@@ -1,0 +1,9 @@
+#foreground       #008000
+
+
+# BEGIN_KITTY_THEME
+# Ayu Mirage
+include current-theme.conf
+# END_KITTY_THEME
+background_opacity 0.7
+# cursor #82cfb4

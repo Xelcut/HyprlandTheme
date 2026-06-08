@@ -1,0 +1,77 @@
+* {
+  font-family: JetBrainsMono, monospace;
+  font-size: 13px;
+}
+
+window#waybar {
+  border-radius: 0 0 0px 0px;
+
+  background-color: rgba(111, 218, 255, 0.0);
+  color: rgba(26, 25, 23, 0.5);
+}
+
+#window {
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 0 15px;
+
+  color: rgba(26, 25, 23, 0.5);
+  background-color: rgba(111, 218, 255, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+#workspaces {
+  padding: 0 2px;
+  margin: 0 0 0 15px;
+}
+
+#workspaces button {
+  border-radius: 15px;
+
+  padding: 0 10px;
+  color: rgba(26, 25, 23, 0.5);
+  background-color: rgba(111, 218, 255, 0.6);
+  transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.hover {
+  background-color: rgba(121, 185, 225, 1);
+}
+
+#workspaces button.active {
+  background-color: rgba(111, 218, 255, 0.6);
+  color: rgba(26, 25, 23, 0.5);
+
+  border-radius: 15px;
+
+  transition: all 0.2s ease-in-out;
+  padding: 0 20px;
+}
+
+#clock {
+  font-family: JetBrainsMono, monospace;
+  font-size: 18px;
+  margin: 0 15 0 0px;
+
+  padding: 0 30px;
+  border-radius: 15px;
+  background-color: rgba(111, 218, 255, 0.6);
+}
+
+#custom-wifi {
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: rgba(111, 218, 255, 0.6);
+}
+
+#battery.critical {
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: rgba(255, 150, 150, 0.8);
+}
+
+#pulseaudio, #backlight, #battery, #cpu, #memory {
+  padding: 0 10px;
+  border-radius: 15px;
+  background-color: rgba(111, 218, 255, 0.6);
+}

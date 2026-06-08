@@ -1,0 +1,23 @@
+window {
+	location: center;
+	y-offset: 10px;
+	width: 700px;
+	height: 90px;
+
+	border: 2px;
+	border-radius: 4px;
+	background-color: #3a5a40c9;
+	border-color: #a3b18ab9;
+}
+
+scrollbar {
+	handle-width: 8px;
+	handle-color: #a4b18a75;
+}
+
+textbox,entry {
+	placeholder: "Calculate";
+	placeholder-color: #a4b18aff;
+	text-color: #dad7cdff;
+}
+

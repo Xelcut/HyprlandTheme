@@ -1,0 +1,63 @@
+{
+  "layer": "bottom",
+  "position": "bottom",
+  "orientation": "vertical",
+  "height": 20,
+  "width": 1600,
+
+  "modules-left": ["hyprland/workspaces", "hyprland/window"],
+  "modules-center": ["tray"],
+  "modules-right": ["custom/wifi", "pulseaudio", "battery", "clock"],
+
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true
+  },
+
+  "clock": {
+    "format": "{:%I:%M}",
+    "tooltip-format": "{:%A, %d %B %Y}"
+  },
+  
+  "pulseaudio": {
+    "format": "\udb81\udd7e {volume}%"
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀  Connected",
+    "format-disconnected": "  Offline"
+  },
+
+  "custom/wifi": {
+    "exec": "~/.config/waybar/scripts/status.sh",
+    "return-type": "json",
+    "interval": 2,
+    "format": "{}"
+  },
+
+
+  "battery": {
+    "interval": 2,
+  
+    "format": "\uf242 {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-full": "  {capacity}%"
+  },
+
+  // "cpu": {
+  //   "interval": 2,
+  // 
+  //   "format": "CPU: {usage}%"
+  // },
+
+  // "memory": {
+  //   "interval": 2,
+  // 
+  //   "format": "Mem: {used}GB"
+  // },
+
+  "tray": {
+    "spacing": 10
+  },
+}
