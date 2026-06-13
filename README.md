@@ -1,9 +1,6 @@
 # My Hyprland Desktop
 This is my Hyprland desktop. You can find my wallpapers and all images used in this README in the Pictures folder. **This README is a test**
 
-## Screenshots
-![](/Pictures/Screenshots/Homescreen.png)
-
 ## Dependencies & Recommended Packages
 I am using Hyprland on Arch Linux, I am not 100% sure if these packages are used in other distros, but I know they are on Arch.
 
